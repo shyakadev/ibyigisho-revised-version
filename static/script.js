@@ -242,8 +242,6 @@ verses.forEach(verse => verse.addEventListener('click', async event => {
 }))
 
 let umurongo = async (req) => {
-    const bibleLink = process.env.BIBLE_LINK
-    console.log({bibleLink})
      let verse = await fetch(`https://bibiliya-scrapper.vercel.app/?verse=${req.targetValue}&icyigisho=${req.icyigisho}&umwaka=${req.umwaka}&igihembwe=${req.igihembwe}&title=${title}`).then(res => res.json()) || "";
      return verse
 }
