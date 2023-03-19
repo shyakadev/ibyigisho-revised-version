@@ -138,7 +138,7 @@ module.exports = {
       resolve: `gatsby-plugin-offline`,
       options: {
         workboxConfig: {
-          globPatterns: ['**/icon-path*']
+          globPatterns: ['*.html'] // https://github.com/gatsbyjs/gatsby/issues/30250#issuecomment-805667320
         }
       }
     },
