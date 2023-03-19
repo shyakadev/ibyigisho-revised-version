@@ -1,7 +1,8 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql,withPrefix } from "gatsby"
+import Helmet from "react-helmet"
 
-import Bio from "../components/bio"
+// import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -13,13 +14,16 @@ const BlogPostTemplate = ({
 
   return (
     <Layout location={location} title={siteTitle}>
+      <Helmet>
+        <script src={withPrefix('script.js')} type="text/javascript" />
+      </Helmet>
       <article
         className="blog-post"
         itemScope
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          <h1 itemProp="headline" id="title">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
         <section
@@ -28,7 +32,7 @@ const BlogPostTemplate = ({
         />
         <hr />
         <footer>
-          <Bio />
+          {/* <Bio /> */}
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -66,6 +70,9 @@ export const Head = ({ data: { markdownRemark: post } }) => {
     <Seo
       title={post.frontmatter.title}
       description={post.frontmatter.description || post.excerpt}
+      icyigisho={post.frontmatter.icyigisho}
+      umwaka={post.frontmatter.umwaka}
+      igihembwe={post.frontmatter.igihembwe}
     />
   )
 }
@@ -91,6 +98,9 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        icyigisho
+        umwaka
+        igihembwe
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
