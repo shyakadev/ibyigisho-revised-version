@@ -242,7 +242,15 @@ verses.forEach(verse => verse.addEventListener('click', async event => {
 }))
 
 let umurongo = async (req) => {
+    let isomo = localStorage.getItem(`${req.targetValue}`);
+    if(isomo) {
+        return {
+            "soma": `${req.targetValue}`,
+            "imirongo": localStorage.getItem(`${req.targetValue}`)
+        }
+    }
      let verse = await fetch(`https://bibiliya-scrapper.vercel.app/?verse=${req.targetValue}&icyigisho=${req.icyigisho}&umwaka=${req.umwaka}&igihembwe=${req.igihembwe}&title=${title}`).then(res => res.json()) || "";
+     localStorage.setItem(`${req.targetValue}`, `${verse.imirongo}`)
      return verse
 }
 
