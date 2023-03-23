@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Ibyigisho by'Ishuri Ryo ku Isabato`,
+    title: `IBYIGISHO BY'ISHURI RYO KU ISABATO`, 
     author: {
       name: `Shyaka Tresor`,
       summary: `who lives and works in Kigali/Rwanda building useful things.`,
@@ -134,6 +134,12 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `ibyigisho`
+      }
+  },
     {
       resolve: `gatsby-plugin-offline`,
       options: {

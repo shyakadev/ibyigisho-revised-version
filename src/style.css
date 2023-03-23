@@ -51,7 +51,7 @@
   --fontSize-4: 1.728rem;
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
-  --fontSize-7: 2.986rem;
+  --fontSize-7: 1.986rem;
   --color-primary: #005b99;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
@@ -323,6 +323,14 @@ a:focus {
   border-radius: 5px;
   padding: 2px 5px 2px 5px;
   cursor: pointer;
+}
+
+.header-line {
+  background: var(--color-primary);
+  height: 11px;
+  border: 0px;
+  margin-top: -5%;
+  margin-bottom: 5%;
 }
 
 /* modal styles */
