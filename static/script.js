@@ -208,7 +208,7 @@ class Modal {
         };
         modal.open();
     }
-
+    
 }
 
 const verses = document.querySelectorAll('.verse');
@@ -253,6 +253,11 @@ let umurongo = async (req) => {
      localStorage.setItem(`${req.targetValue}`, `${verse.imirongo}`)
      return verse
 }
+
+verses.forEach(async verse => {
+    let targetValue = verse.innerHTML
+    await umurongo({targetValue, icyigisho, umwaka, igihembwe, title}).catch(() => `Please check your internet connection`);
+})
 
 // https://bibiliya.com/biblia/kubara-2-3
 
