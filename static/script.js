@@ -1,4 +1,4 @@
-class Modal {
+var Modal = class Modal {
 
     constructor(options) {
         let defaults = { element: null, effect: 'zoom', state: 'closed', size: 'medium', content: null, footer: null, header: null, title: null };
@@ -211,17 +211,17 @@ class Modal {
     
 }
 
-const verses = document.querySelectorAll('.verse');
-const icyigisho = document.querySelector('meta[name="icyigisho"]').getAttribute("content") || "";
-const umwaka = document.querySelector('meta[name="umwaka"]').getAttribute("content") || "";
-const igihembwe = document.querySelector('meta[name="igihembwe"]').getAttribute("content") || "";
-const title = document.getElementById('title').innerText || "";
+var verses = document.querySelectorAll('.verse');
+var icyigisho = document.querySelector('meta[name="icyigisho"]').getAttribute("content") || "";
+var umwaka = document.querySelector('meta[name="umwaka"]').getAttribute("content") || "";
+var igihembwe = document.querySelector('meta[name="igihembwe"]').getAttribute("content") || "";
+var title = document.getElementById('title').innerText || "";
 
 verses.forEach(verse => verse.addEventListener('click', async event => {
     const targetValue = event.target.innerHTML;
     const myModal = new Modal({
         effect: 'zoom', // zoom|slide
-        size: 'large', // small|medium|large|full
+        size: 'medium', // small|medium|large|full
         title: 'Dynamic Modal',
         content: '<p>The content for your dynamic modal.</p>',
         onOpen: function() {
@@ -241,7 +241,7 @@ verses.forEach(verse => verse.addEventListener('click', async event => {
     console.log(`verse clicked`)
 }))
 
-let umurongo = async (req) => {
+var umurongo = async (req) => {
     let isomo = localStorage.getItem(`${req.targetValue}`);
     if(isomo) {
         return {
