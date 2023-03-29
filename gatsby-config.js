@@ -148,5 +148,13 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: `gatsby-plugin-social9-socialshare`,
+      options: {
+        async:  true,
+        defer:  true,
+        content: "b8dd79dce6cd4b2eab5687a5d4a37487",
+      }
+    }
   ],
 }

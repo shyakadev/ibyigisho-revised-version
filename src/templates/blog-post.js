@@ -30,6 +30,7 @@ const BlogPostTemplate = ({
         <header>
           <h1 itemProp="headline" id="title">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
+          <div class="s9-class-container"></div>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
