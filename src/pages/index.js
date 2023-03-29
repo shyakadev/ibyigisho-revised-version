@@ -52,6 +52,7 @@ const BlogIndex = ({ data, location }) => {
                   </Link>
                 </section>
               </article>
+              <hr />
             </li>
           )
         })}
