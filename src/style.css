@@ -355,7 +355,12 @@ a:focus {
 }
 .modal .container.zoom {
   transform: scale(0.5);
-  margin-top: 35%;
+}
+
+@media (max-width: 600px) {
+  .modal .container.zoom {
+    margin-top: 35%;
+  }
 }
 .modal .container.slide {
   transform: translateY(-1000px);
