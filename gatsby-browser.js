@@ -8,3 +8,6 @@ import "./src/style.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"
+
+// Reload on page update
+exports.onServiceWorkerUpdateReady = () => window.location.reload(true);
