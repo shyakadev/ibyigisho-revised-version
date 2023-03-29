@@ -22,7 +22,26 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-plugin-sitemap`,
+    {
+    resolve: `gatsby-plugin-sitemap`,
+    options: {
+      query: `
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+
+      allSitePage {
+        edges {
+          node {
+            path
+          }
+        }
+      }
+      `
+    }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
