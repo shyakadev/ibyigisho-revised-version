@@ -15,13 +15,14 @@ module.exports = {
       summary: `who lives and works in Kigali/Rwanda building useful things.`,
     },
     description: `Ibyigisho by'Ishuri Ryo ku Isabato Biyobora Abakuze Kwiga Bibiliya`,
-    siteUrl: `https://ibyigisho.org/`,
+    siteUrl: `https://ibyigisho.xyz/`,
     social: {
       twitter: `tshyaka`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
