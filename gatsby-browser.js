@@ -10,4 +10,12 @@ import "./src/style.css"
 import "prismjs/themes/prism.css"
 
 // Reload on page update
-exports.onServiceWorkerUpdateReady = () => window.location.reload(true);
+export const onRouteUpdate = () => {
+    navigator.serviceWorker.register('sw.js').then((reg) => {
+        reg.update()
+    })
+}
+
+export const onServiceWorkerUpdateReady = () => {
+    window.location.reload(true)
+}
