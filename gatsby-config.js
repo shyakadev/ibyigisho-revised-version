@@ -26,6 +26,7 @@ module.exports = {
     resolve: `gatsby-plugin-sitemap`,
     options: {
       query: `
+      {
       site {
         siteMetadata {
           siteUrl
@@ -39,6 +40,7 @@ module.exports = {
           }
         }
       }
+    }
       `
     }
     },
