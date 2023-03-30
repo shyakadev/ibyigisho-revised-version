@@ -11,7 +11,7 @@ import "prismjs/themes/prism.css"
 
 // Reload on page update
 export const onRouteUpdate = () => {
-    navigator.serviceWorker.register('sw.js').then((reg) => {
+    navigator.serviceWorker.register('/sw.js').then((reg) => {
         reg.update()
     })
 }

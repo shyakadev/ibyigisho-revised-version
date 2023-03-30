@@ -57,6 +57,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-scheduled-publishing`,
+      options: {
+          publishDate: node => node.frontmatter?.date,
+      },
+  },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
