@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
   jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: DAILY AUTOMATIC UPDATE
-        run: |
-          curl -X POST ${{secrets.DAILY_AUTOMATIC_UPDATE}} --header "x-gatsby-cache: false"
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: DAILY AUTOMATIC UPDATE
+          run: |
+            curl -X POST ${{secrets.DAILY_AUTOMATIC_UPDATE}} --header "x-gatsby-cache: false"
