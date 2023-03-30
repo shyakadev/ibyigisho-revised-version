@@ -12,6 +12,6 @@ on:
     build:
       runs-on: ubuntu-latest
       steps:
-        - name: DAILY AUTOMATIC UPDATE
+        - name: DAILY_AUTOMATIC_UPDATE
           run: |
             curl -X POST ${{secrets.DAILY_AUTOMATIC_UPDATE}} --header "x-gatsby-cache: false"
