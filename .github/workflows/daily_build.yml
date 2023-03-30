@@ -12,6 +12,6 @@ on:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Gatsby Webhook
+      - name: DAILY AUTOMATIC UPDATE
         run: |
-          curl -X POST ${{secrets.gatsby_webhook}} --header "x-gatsby-cache: false"
+          curl -X POST ${{secrets.DAILY_AUTOMATIC_UPDATE}} --header "x-gatsby-cache: false"
