@@ -1,0 +1,17 @@
+name: Daily Automatic Update
+
+on:
+  schedule:
+   # Run every day at 00:00am UTC
+    - cron: "2 * * * *"
+
+    # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gatsby Webhook
+        run: |
+          curl -X POST ${{secrets.gatsby_webhook}} --header "x-gatsby-cache: false"
