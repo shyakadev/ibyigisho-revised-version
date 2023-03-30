@@ -2,7 +2,7 @@ name: Daily Automatic Update
 
 on:
   schedule:
-   # Run every day at 00:00am UTC
+   # Run every day at 00:00am UTC 
     - cron: "* * * * *"
 
     # Allows you to run this workflow manually from the Actions tab
