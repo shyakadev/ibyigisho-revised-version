@@ -3,6 +3,7 @@ title: Umugore Mu Butayu
 date: "2023-03-29"
 description:  Iminsi 1,260 ivugwa mu Byahishuwe 12:6 ihwanye n'igihe n'ibihe n'igice cy'igihe bivugwa mu Byahishuwe 12:14. Ubundi buhanuzi bugaragaza igihe kingana n'iki buboneka muri Daniyeli 7:25, Ibyahishuwe 11:2-3, n'Ibyahishuwe 13:5.
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: Yesu aratsinda - Satani agatsindwa
 umunsi: KU WA KANE

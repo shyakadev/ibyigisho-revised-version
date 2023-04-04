@@ -3,6 +3,7 @@ title: IGIHE CYO GUTEGURA IHEREZO
 date: "2023-04-01"
 description: Mbona igicu cyera; no ku gicu mbona uwicayeho usa n'Umwana w'umuntu, wambaye ikamba ry'izahabu ku mutwe, kandi afite umuhoro utyaye mu ntoki ze. Marayika wundi ava mu rusengero, arangurura ijwi rirenga, abwira uwicaye kuri cya gicu, ati, 'Ahuramo umuhoro wawe, usarure, kuko isarura risohoye, kandi ibisarurwa byo mu isi byeze cyane
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU ISABATO N'IMUGOROBA

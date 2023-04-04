@@ -3,6 +3,7 @@ title: UBWOKO BW'IMANA BWASIGAYE BWO MU MINSI Y'IMPERUKA
 date: "2023-03-30"
 description: Kuva umwanzi yakwigomeka mu ijuru, yakomeje intambara ahanganyemo na Kristo (Ibyahishuwe 12:7). Kuva icyo gihe kugeza aya magingo umugambi wa Satani ni ukwigarurira isanzure akaritegeka (Yesaya 14:12-14). 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: Yesu aratsinda - Satani agatsindwa
 umunsi: KU WA GATANU

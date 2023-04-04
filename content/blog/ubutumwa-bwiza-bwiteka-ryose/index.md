@@ -3,6 +3,7 @@ title: UBUTUMWA BWIZA BW'ITEKA RYOSE
 date: "2023-04-08"
 description: Nuko mbona marayika wundi aguruka aringanije ijuru, afite ubutumwa bwiza bw'iteka ryose, ngo abubwire abari mu isi, bo mu mahanga yose n'imiryango yose n'indimi zose n'amoko yose
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: UBUTUMWA BWIZA BW'ITEKA RYOSE
 umunsi: KU ISABATO NIMUGOROBA

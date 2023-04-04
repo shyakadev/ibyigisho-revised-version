@@ -3,6 +3,7 @@ title: IBINDI BYO KWIGWA NO KUZIRIKANWA
 date: "2023-04-07"
 description: Ni itegeko muri kamere y'umutima no mu y'iby'Umwuka ko duhindurwà n'ibyo dutumbiriye. Ibitekerezo byacu ubwabyo bigendera ku byo byerekejweho. Bigera aho bigasa n'iby'abo dukunda kandi twubaha. 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA GATANDATU

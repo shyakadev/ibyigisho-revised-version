@@ -3,6 +3,7 @@ title: IBINDI BYO KWIGWA NO KUZIRIKANWA
 date: "2023-03-31"
 description: Mu buryo bumwe, dushobora kuvuga ko Imana itari ifite andi mahitamo Niba yarashakaga ibiremwa bishobora kuyikunda no gukunda abandi, yagombaga kubirema bifite umudendezo. 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: Yesu aratsinda - Satani agatsindwa
 umunsi: KU WA GATANDATU

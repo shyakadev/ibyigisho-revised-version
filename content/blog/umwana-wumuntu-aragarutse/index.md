@@ -3,6 +3,7 @@ title: UMWANA W'UMUNTU ARAGARUTSE
 date: "2023-04-03"
 description: Mu gitabo cy'Ibyahishuwe 14 hakubiyemo imirongo y'ingenzi ku birebana n'ubutumwa bw'Umwami bw'igihe giheruka bugenewe ubwoko bw'Imana ndetse n'abatuye isi. 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA KABIRI

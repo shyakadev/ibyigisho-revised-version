@@ -3,6 +3,7 @@ title: IGITABO CY'IBYIRINGIRO CYUJE UBUNTU
 date: "2023-04-09"
 description: Iyo abantu benshi batekereje ku gitabo giheruka ibindi muri Bibiliya, ari cyo cy'lbyahishuwe, ntabwo bajya batekereza ibyerekeye ubuntu bw'Imana. Iyo batekereje ubutumwa bw'Imana buvuga iby'iminsi y'imperuka, akenshi 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: UBUTUMWA BWIZA BW'ITEKA RYOSE
 umunsi: KU WA MBERE

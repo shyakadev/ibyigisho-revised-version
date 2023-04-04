@@ -3,6 +3,7 @@ title: URUBANZA RWO MU IJURU
 date: "2023-04-04"
 description: Mbona igicu cyera; no ku gicu mbona uwicayeho usa n'Umwana w'umuntu" (Ibyahishuwe 14:14). Luka yabyanditse mu gitabo cy'lbyakozwe n'Intumwa, aravuga ati, "azamurwa bakimureba, igicu kiramubakingiriza. 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA GATATU

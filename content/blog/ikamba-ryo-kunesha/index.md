@@ -3,6 +3,7 @@ title: IKAMBA RYO KUNESHA
 date: "2023-04-05"
 description: Yohana agaragaza Yesu nk "Umwana w'Umuntu, wambaye ikamba ry'izahabu ku mutwe we, kandi afite umuhoro utyaye mu intoki ze" (Ibyahishuwe 14:14). Ijambo risobanura "ikamba" ni stephanos.
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA KANE

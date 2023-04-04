@@ -3,6 +3,7 @@ title: URUBUTO RWOSE RUTANGA UMUSARURO
 date: "2023-04-06"
 description: Mu gitabo cy'Ibyahishuwe 14 hari imisaruro ibiri. Umusaruro w'imbuto za zahabu uhagarariye abakiranutsi, n'umusaruro w'inzabibu zenzwe zikavamo amaraso uhagarariye abakiranirwa cyangwa abazarimbuka.
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA GATANU
