@@ -3,6 +3,7 @@ title: AMAHITAMO Y'ITEKA RYOSE
 date: "2023-04-02"
 description: Ubutumwa buvugwa mu Byahishuwe 14 ni ubutumwa bwa Yesu bw'imbabazi buheruka bubwirwa isi yacumuye kandi yigometse ku Mana, isi imaze imyaka igera ku bihumbi bitandatu yivuruguta mu byaha no mu bikorwa bibi. 
 umwaka: 2023
+icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA MBERE
