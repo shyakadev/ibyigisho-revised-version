@@ -4,6 +4,8 @@ date: "2023-03-28"
 description:  Nk'uko byagaragajwe muri Bibiliya, Yesu ntiyigeze atsindwa intambara n'imwe ahanganyemo na Satani. Ni Umuneshi w'Umunyambaraga. Umuneshi wanesheje imbaraga z'umubi. Kwizera ko Yesu yatsinze ibishuko bya Satani ni ikintu kimwe, no kwizera ko intsinzi ya Kristo ari iyacu na cyo ni ikindi.
 umwaka: 2023
 igihembwe: 2
+umutwe: Yesu aratsinda - Satani agatsindwa
+umunsi: KU WA GATATU
 ---
 
 Nk'uko byagaragajwe muri Bibiliya, Yesu ntiyigeze atsindwa intambara n'imwe ahanganyemo na Satani. Ni Umuneshi w'Umunyambaraga. Umuneshi wanesheje imbaraga z'umubi. Kwizera ko Yesu yatsinze ibishuko bya Satani ni ikintu kimwe, no kwizera ko intsinzi ya Kristo ari iyacu na cyo ni ikindi.

@@ -5,6 +5,8 @@ description:  Urugero, Yesu akimara kuvuka, marayika yahishuriye Yosefu na Mariy
 icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 umwaka: 2023
 igihembwe: 2
+umutwe: Yesu aratsinda - Satani agatsindwa
+umunsi: KU WA KABIRI
 ---
 
 Kuva na mbere hose (soma <span class="verse">Ibyahishuwe 12:4-5</span>) Satani yashatse kurimbura Kristo. Nyamara, buri gihe cyose yageragezaga kumurimbura, ntabwo yabigeragaho.

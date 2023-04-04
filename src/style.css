@@ -357,6 +357,15 @@ a:focus {
   margin-bottom: 5%;
 }
 
+.umunsi {
+  color: var(--color-text);
+}
+
+.umutwe {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
 /* modal styles */
 .modal {
   width: 100%;

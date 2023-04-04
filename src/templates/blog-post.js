@@ -28,8 +28,9 @@ const BlogPostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
+          <small className="umutwe">➖ {post.frontmatter.umutwe}</small>
           <h1 itemProp="headline" id="title">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p><small className="umunsi"><b>{post.frontmatter.umunsi}</b></small> - {post.frontmatter.date}</p>
           <div class="s9-class-container"></div>
         </header>
         <section
@@ -107,6 +108,8 @@ export const pageQuery = graphql`
         icyigisho
         umwaka
         igihembwe
+        umunsi
+        umutwe
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

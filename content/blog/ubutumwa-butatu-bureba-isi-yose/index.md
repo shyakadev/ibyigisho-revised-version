@@ -5,6 +5,8 @@ description: Ikiyoka kirakarira wa mugore, kiragenda ngo kirwanye abo mu rubyaro
 icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 umwaka: 2023
 igihembwe: 2
+umutwe: Yesu aratsinda - Satani agatsindwa
+umunsi: KU ISABATO
 ---
 **AHO ICYIGISHO CY'IKI CYUMWERU GISHINGIYE:** Ibyahishuwe 12; <span class="verse">Abefeso 5:25-27</span>, <span class="verse">Abefeso 5:32</span>; <span class="verse">Abafilipi 3:9</span>; <span class="verse">Daniyeli 7:25</span>; <span class="verse">Yesaya 14:12-14</span>; <span class="verse">Ibyahishuwe 13:14-17</span>.
 

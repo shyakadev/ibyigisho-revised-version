@@ -5,6 +5,8 @@ description: Mu gitabo cyibyahishuwe 12 hagaragaza uruhererekane rw’inkuru zit
 icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 umwaka: 2023
 igihembwe: 2
+umutwe: Yesu aratsinda - Satani agatsindwa
+umunsi: KU WA MBERE
 ---
 
 Mu gitabo cy'Ibyahishuwe 12 hagaragaza uruhererekane rw’inkuru ziteye ubwoba, zivuga iby'intambara imaze igihe kirekire iri hagati y’icyiza n’ikibi yatangiriye mu ijuru ariko ikaba izarangirira hano kuri iyisi. Izo nkuru zituma dusubiza amaso inyuma  mu gihe cya kera, kuva ku kwigomeka kwa Satani kwatangiriye mu ijuru zikatugeza ku bitero satani agaba ku bwoko bw’imana bwo mu minsi iheruka.
