@@ -8,7 +8,7 @@ umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA GATATU
 ---
 
-**Soma mu gitabo cy'Ibyahishuwe <span class="verse">14:14</span> n' Ibyakozwe n'Intumwa 1:9-11. Ni iki ayo masomo yombi ahuriyeho?**
+**Soma mu gitabo cy'<span class="verse">Ibyahishuwe 14:14</span> n' Ibyakozwe n'Intumwa 1:9-11. Ni iki ayo masomo yombi ahuriyeho?**
 
 ---
 ---
