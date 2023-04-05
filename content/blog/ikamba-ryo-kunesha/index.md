@@ -9,12 +9,12 @@ umutwe: IGIHE CYO GUTEGURA IHEREZO
 umunsi: KU WA KANE
 ---
 
-Yohana agaragaza Yesu nk "Umwana w'Umuntu, wambaye ikamba ry'izahabu ku mutwe we, kandi afite umuhoro utyaye mu intoki ze" (Ibyahishuwe 14:14). Ijambo risobanura "ikamba" ni stephanos. Ni ikamba ry'uwanesheje. Igihe usiganwa mu marushanwa yo kwiruka, yabaga atsinze irushanwa rikomeye, yahabwaga stephanos, ikamba ry'icyubahiro. ry'ubwiza, ry'insinzi.
+Yohana agaragaza Yesu nk "Umwana w'Umuntu, wambaye ikamba ry'izahabu ku mutwe we, kandi afite umuhoro utyaye mu intoki ze" (<span class="verse">Ibyahishuwe 14:14</span>). Ijambo risobanura "ikamba" ni stephanos. Ni ikamba ry'uwanesheje. Igihe usiganwa mu marushanwa yo kwiruka, yabaga atsinze irushanwa rikomeye, yahabwaga stephanos, ikamba ry'icyubahiro. ry'ubwiza, ry'insinzi.
 
 
 Hari igihe Yesu yigeze kwambikwa ikamba ry'amahwa, rishushanya gukorwa n'isoni no gushinyagurirwa. Yigeze gusuzugurwa kandi yangwa n'abantu. Yaratutswe, baramukwena, acirwa amacandwe, kandi arakubitwa. Ariko ubu noncho yambaye ikamba ry'icyubahiro kandi agiye kugaruka, kandi ubu ho agiye kugaruka ari Umwami w'abami n'Umutware utwara abatware.
 
-**Soma Ibyahishuwe 14:15 no muri Mariko 4:26-29. Ni iyche sano iri hagati y'ayo masomo yombi? Ayo masomo yombi avuga iki?**
+**Soma <span class="verse">Ibyahishuwe 14:15</span> no muri <span class="verse">Mariko 4:26-29</span>. Ni iyche sano iri hagati y'ayo masomo yombi? Ayo masomo yombi avuga iki?**
 
 ---
 ---
