@@ -17,7 +17,7 @@ Mu buryo bwihishe, butagaragara, mu buryo utahita ubona ako kanya, imico yacu n'
 
 **IBIBAZO:**
 
-**1. Ni iyihe sano iri hagati yo gukizwa kubw'ubuntu no gukurira mu buntu, mu cyerekezo cy'ibivugwa mu Byahishuwe 14:14-20 n'ihame ry'umusaruro?**
+**1. Ni iyihe sano iri hagati yo gukizwa kubw'ubuntu no gukurira mu buntu, mu cyerekezo cy'ibivugwa mu <span class="verse">Ibyahishuwe 14:14-20</span> n'ihame ry'umusaruro?**
 
 **2. Nimwungurane ibitekerezo ku bikenerwa kugira ngo ikimera gikure maze mu bigereranye n'imikurire yacu mu bya Mwuka. Ni iki bihuriyeho? Ni ukuvuga, ni iki dushobora kwigira ku mikurire y'ibimera dushobora kuba twakwifashisha kugira ngo tumenye uko twakura mu bya Mwuka mu mibereho vacu?**
 
