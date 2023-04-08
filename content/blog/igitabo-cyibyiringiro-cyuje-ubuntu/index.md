@@ -11,14 +11,14 @@ umunsi: KU WA MBERE
 
 Iyo abantu benshi batekereje ku gitabo giheruka ibindi muri Bibiliya, ari cyo cy'lbyahishuwe, ntabwo bajya batekereza ibyerekeye ubuntu bw'Imana. Iyo batekereje ubutumwa bw'Imana buvuga iby'iminsi y'imperuka, akenshi ibitekerezo byabo bihita byerekeza ku nyamaswa ziteye ubwoba, ibimenyetso by'amayobera, 'amashusho adasanzwe. Igitabo cy'Ibyahishuwe gitera ubwoba abantu benshi kandi kigahumuriza abantu benshi kuko cyuzuyemo ubuntu n'ibyiringiro. Ni ukuvuga ko, ndetse no muri izo nyamaswa ziteye ubwoba n'imiburo ivuga iby'akarengane n'ibihe birushya biri imbere yacu, Imana iracyatanga impamvu zituma twishimira agakiza kayo.
 
-**Soma Ibyahishuwe 1:1-3 n'Ibyahishuwe 14:6. Ni mu buhe buryo- ayo masomo yombi atatubwira ibyerekeye iby'igitabo cy'Ibyahishuwe gusa, ahubwo anatubwira ibyerekeye "ubutumwa bwiza bw'iteka ryose"?**
+**Soma <span class="verse">Ibyahishuwe 1:1-3</span> n'<span class="verse">Ibyahishuwe 14:6</span>. Ni mu buhe buryo- ayo masomo yombi atatubwira ibyerekeye iby'igitabo cy'Ibyahishuwe gusa, ahubwo anatubwira ibyerekeye "ubutumwa bwiza bw'iteka ryose"?**
 
 ---
 ---
 
 Igitabo cy'Ibyahishuwe eyose kivuga Yesu. Ni ubutumwa Bwe, bugenewe abantu be, cyane cyane itorero Rye ryo mu minsi iheruka amateka y'isi. Ni ubutumwa bwuje ubuntu bw'ibyiringiro byacu byo mu minsi iheruka. Muri icyo gitabo, Kristo agaragazwa nk Umwana w'Intama watambwe, kandi imigisha isezeranywa abasoma, bagasobanukirwa, kandi bagakora bakurikije ukuri kwagaragajwe.
 
-Hakurikijwe ibivugwa mu Byahishuwe 1:5, 6, Yesu ni We "wadukunze, watwejeshejeho ibyaha byacu amaraso ye, akaduhindura abami n'abatambyi b'Imana ye, ni yo na Se." Muri Kristo twarababariwe. Ubuntu butubabarira ibyo twakoze mu gihe cyatambutse, bukatwongera imbaraga muri iki gihe turimo, kandi bukaduha ibyiringiro by'ejo hazaza. Ni ukuvuga ko, muri Kristo twakuweho igihano cy'icyaha n'imbaraga zacyo, kandi umunsi umwe bidatinze tuzabaturwa icyaha kituve imbere by'iteka ryose. Ubwo ni bwo butumwa bukubiye mu gitabo giheruka ibindi muri Bibiliya, ari cyo gitabo cy'Ibyahishuwe.
+Hakurikijwe ibivugwa mu <span class="verse">Ibyahishuwe 1:5-6</span>, Yesu ni We "wadukunze, watwejeshejeho ibyaha byacu amaraso ye, akaduhindura abami n'abatambyi b'Imana ye, ni yo na Se." Muri Kristo twarababariwe. Ubuntu butubabarira ibyo twakoze mu gihe cyatambutse, bukatwongera imbaraga muri iki gihe turimo, kandi bukaduha ibyiringiro by'ejo hazaza. Ni ukuvuga ko, muri Kristo twakuweho igihano cy'icyaha n'imbaraga zacyo, kandi umunsi umwe bidatinze tuzabaturwa icyaha kituve imbere by'iteka ryose. Ubwo ni bwo butumwa bukubiye mu gitabo giheruka ibindi muri Bibiliya, ari cyo gitabo cy'Ibyahishuwe.
 
 
 Ubwo butumwa kandi burihutirwa, butangira bugaragazwa mu ishusho ya marayika uguruka aringanije ijuru afite "ubutumwa bwiza bw'iteka ryose."
