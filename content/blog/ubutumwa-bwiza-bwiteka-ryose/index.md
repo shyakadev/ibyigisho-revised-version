@@ -14,7 +14,7 @@ umunsi: KU ISABATO NIMUGOROBA
 **ICYO KWIBUKWA: "Nuko mbona marayika wundi aguruka aringanije ijuru, afite ubutumwa bwiza bw'iteka ryose, ngo abubwire abari mu isi, bo mu mahanga yose n'imiryango yose n'indimi zose n'amoko yose"** (<span class="verse">Ibyahishuwe 14:6</span>).
 
 
-Muri Isirayèli ya kera, igihe abanyamahanga bayikikije bizeraga imana nyinshi, zirimo izibajwe mu biti, n'iziconzwe mu mabuye, Abisirayeli babwiwe ko bakwiriye kugira ikibatandukanya n'ayo mahanga kikabaranga aho bari hose, maze babwirwa aya magambo akomeye yo kwizera dusanga mu gitabo cyo <span class="verse">Gutegeka kwa Kabiri 6:4</span>: "Umva wa bwoko bwa Isirayeli we, Uwiteka Imana yacu ni we Uwiteka wenyine".
+Muri Isirayèli ya kera, igihe abanyamahanga bayikikije bizeraga imana nyinshi, zirimo izibajwe mu biti, n'iziconzwe mu mabuye, Abisirayeli babwiwe ko bakwiriye kugira ikibatandukanya n'ayo mahanga kikabaranga aho bari hose, maze babwirwa aya magambo akomeye yo kwizera dusanga mu gitabo cyo Gutegeka kwa Kabiri 6:4: "Umva wa bwoko bwa Isirayeli we, Uwiteka Imana yacu ni we Uwiteka wenyine".
 
 
 Uko imyaka yagiye ihita indi igataha, ugusubirwamo kw'izina Shema (izina ry 'isengesho) rishingiye ku jambo ry'Igiheburayo risobanura "Umva" ryibutsaga Abaheburayo iyerekwa ry'ibya Mwuka ryabahurizaga hamwe nk'ubwoko bw'Imana kandi rikabatera imbaraga zo gushikama ku kintu kimwe rukumbi cyabarangaga nk'abantu baramya Imana nyakuri.
