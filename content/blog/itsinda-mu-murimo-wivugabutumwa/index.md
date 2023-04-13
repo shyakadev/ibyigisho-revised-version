@@ -17,7 +17,7 @@ Ni ukubera iki umuntu nk'uwo yoherejwe ahantu hari abizera bake cyane? Kuki "umu
 
 Uko ibihe byagiye bisimburana mu mateka yacu, abahanga bacu batubereye urugero bagiye bajya ku mpera z'isi bajya kubwiriza ubutumwa bwo mu minsi iheruka. Bari abarimu, abaganga, abapasitoro, abahinzi, abakanishi, ababaji n'abacuruzi b' ingeri zose. Bamwe bari abakozi b'itorero, ariko abenshi ntabwo bari abakozi b'itorero. Bari abakorerabushake bizeraga ko Yesu ari hafi kugaruka.
 
-**Soma <span class="verse">Ibyahishuwe 14:6</span>, <span class="verse">Ibyakozwe n'Intumwa 1:8</span>, na <span class="verse">Matayo 24:14</span>. Ni iyihe sano iri hagati y'iyo mirongo?**
+**Soma <span class="verse">Ibyahishuwe 14:6</span>, Ibyakozwe n'Intumwa 1:8, na <span class="verse">Matayo 24:14</span>. Ni iyihe sano iri hagati y'iyo mirongo?**
 
 ---
 ---
