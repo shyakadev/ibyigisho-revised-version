@@ -7,6 +7,7 @@ icyigisho: UBUTUMWA BUTATU BUREBA ISI YOSE
 igihembwe: 2
 umutwe: NIMWUBAHE IMANA KANDI MUYIHIMBAZE
 umunsi: KU WA MBERE
+---
 
 Umugambi w'igitabo cy'Ibyahishuwe ku gisekuru cyacu ni ukwiteguza ubwoko bw'Imana kugaruka kwa Yesu kwegereje no gufatanya na we kwamamaza ubutumwa Bwe buheruka ku batuye isi. Igitabo cy'Ibyahishuwe kigaragaza imigambi y'Imana kandi kigahishura imigambi ya Satani. Kigaragaza irarika ry'Imana riheruka, ubutumwa bwayo bwihutirwa kandi bw'iteka ryose bugenewe abantu bose.
 
