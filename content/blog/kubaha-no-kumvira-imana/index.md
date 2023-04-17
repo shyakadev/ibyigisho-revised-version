@@ -10,7 +10,7 @@ umunsi: KU WA KABIRI
 ---
 Ni iki kindi Bibiliya itwigisha cyerekeranye n'icyo kubaha Imana bisobanuye?
 
-**Soma Gutegeka kwa <span class="verse">Kabiri 6:2</span>; <span class="verse">Zaburi 119:73-74</span>; n'<span class="verse">Umubwiriza 12:13-14</span>. Ni iki iyo mirongo ivuga ko ari umusaruro wo "kubaha Imana"?**
+**Soma <span class="verse">Gutegeka kwa Kabiri 6:2</span>; <span class="verse">Zaburi 119:73-74</span>; n'<span class="verse">Umubwiriza 12:13-14</span>. Ni iki iyo mirongo ivuga ko ari umusaruro wo "kubaha Imana"?**
 
 Iyi mirongo igaragaza isano iri hagati yo kubaha Imana no gukomeza amategeko yayo. Kubaha Imana ni imyitwarire yo guha Imana icyubahiro ari byo bituma tuyumvira. Irarika ryihutirwa riturutse mu ijuru rirarikira abakijijwe n'ubuntu kwitondera amategeko y'Imana (<span class="verse">Abefeso 2:8-10</span>). Ntabwo ubuntu budukuraho inshingano yo kumvira amategeko y'Imana. Ubutumwa bwiza budukura mu bubata bwo gucirwaho iteka n'amategeko, ariko ntabwo budukuraho inshingano yo kuyubahiriza.
 
