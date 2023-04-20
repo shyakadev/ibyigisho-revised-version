@@ -15,7 +15,7 @@ Ni ukwizera kwashoboje Kristo gutsinda ibishuko bya Satani bikaze. Kwizera ni im
 
 Tunesha kubera ko yanesheje. Dushobora kuba abaneshi kubera ko yabaye umuneshi. Dushobora gutsinda ibishuko kuko yatsinze ibishuko.
 
-**Soma <span class="verse">Abeheburayo 4:14-16</span> n'<span class="verse">Abaheburayo 7:25</span>. Ni ubuhe buryo bwo kunesha no kubaho imibereho "yubaha Imana" kandi "iyihimbaza"?**
+**Soma <span class="verse">Abaheburayo 4:14-16</span> n'<span class="verse">Abaheburayo 7:25</span>. Ni ubuhe buryo bwo kunesha no kubaho imibereho "yubaha Imana" kandi "iyihimbaza"?**
 
 ---
 ---
