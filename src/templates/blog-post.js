@@ -1,26 +1,28 @@
 import * as React from "react"
-import { Link, graphql,withPrefix } from "gatsby"
+import { Link, graphql, withPrefix } from "gatsby"
 import Helmet from "react-helmet"
+import { marked } from "marked"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Disqus } from "gatsby-plugin-disqus"
 
 const BlogPostTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
+  data: { previous, next, site, appwritePosts: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   let disqusConfig = {
-      url: location.href,
-      identifier: post.id,
-      title: post.frontmatter.title,
+    url: location.href,
+    identifier: post.id,
+    title: post.title,
   }
+  const body = marked(post.body, {breaks: true, gfm: true})
 
   return (
     <Layout location={location} title={siteTitle}>
       <Helmet>
-        <script src={withPrefix('script.js')} type="text/javascript" />
+        <script src={withPrefix("script.js")} type="text/javascript" />
       </Helmet>
       <article
         className="blog-post"
@@ -28,13 +30,20 @@ const BlogPostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
-          <small className="umutwe">➖ {post.frontmatter.umutwe}</small>
-          <h1 itemProp="headline" id="title">{post.frontmatter.title}</h1>
-          <p><small className="umunsi"><b>{post.frontmatter.umunsi}</b></small> - {post.frontmatter.date}</p>
+          <small className="umutwe">➖ {post.umutwe}</small>
+          <h1 itemProp="headline" id="title">
+            {post.title}
+          </h1>
+          <p>
+            <small className="umunsi">
+              <b>{post.umunsi}</b>
+            </small>{" "}
+            - {post._created_at}
+          </p>
           <div class="s9-class-container"></div>
         </header>
         <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
+          dangerouslySetInnerHTML={{ __html: body }}
           itemProp="articleBody"
         />
         <hr />
@@ -54,15 +63,15 @@ const BlogPostTemplate = ({
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+              <Link to={`/${previous.slug}`} rel="prev">
+                ← {previous.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+              <Link to={`/${next.slug}`} rel="next">
+                {next.title} →
               </Link>
             )}
           </li>
@@ -72,14 +81,14 @@ const BlogPostTemplate = ({
   )
 }
 
-export const Head = ({ data: { markdownRemark: post } }) => {
+export const Head = ({ data: { appwritePosts: post } }) => {
   return (
     <Seo
-      title={post.frontmatter.title}
-      description={post.frontmatter.description || post.excerpt}
-      icyigisho={post.frontmatter.icyigisho}
-      umwaka={post.frontmatter.umwaka}
-      igihembwe={post.frontmatter.igihembwe}
+      title={post.title}
+      description={post.description || post.excerpt}
+      icyigisho={post.icyigisho}
+      umwaka={post.umwaka}
+      igihembwe={post.igihembwe}
     />
   )
 }
@@ -97,36 +106,28 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(id: { eq: $id }) {
+    appwritePosts (id: {eq: $id}) {
       id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-        icyigisho
-        umwaka
-        igihembwe
-        umunsi
-        umutwe
-      }
+      slug
+      title
+      description
+      icyigisho
+      umwaka
+      igihembwe
+      umunsi
+      umutwe
+      body
     }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
+    
+    previous: appwritePosts(id: {eq: $previousPostId}){
+      id
+      title
+      slug
     }
-    next: markdownRemark(id: { eq: $nextPostId }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-      }
+    next: appwritePosts(id: {eq: $nextPostId}){
+      id
+      title
+      slug
     }
   }
 `

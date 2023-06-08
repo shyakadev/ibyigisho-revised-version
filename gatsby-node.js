@@ -19,15 +19,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Get all markdown blog posts sorted by date
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        filter: {fields: {isPublished: {eq: true}}}
-        sort: { frontmatter: { date: ASC } }, limit: 1000
-        ) {
+      allAppwritePosts(sort: { _createdAt: DESC }) {
+        totalCount
         nodes {
+          _id
           id
-          fields {
-            slug
-          }
+          slug
+          title
+          description
+          umunsi
+          _createdAt
         }
       }
     }
@@ -41,7 +42,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const posts = result.data.allMarkdownRemark.nodes
+  const posts = result.data.allAppwritePosts.nodes
 
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
@@ -53,7 +54,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
 
       createPage({
-        path: post.fields.slug,
+        path: post.slug,
         component: blogPost,
         context: {
           id: post.id,
@@ -71,13 +72,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+  if (node.internal.type === `AppwritePosts`) {
+    const slug = `/${node.slug}`
 
     createNodeField({
-      name: `slug`,
       node,
-      value,
+      name: `slug`,
+      value: slug,
     })
   }
 }
@@ -108,6 +109,16 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Social {
       twitter: String
+    }
+
+    type AppwritePosts implements Node {
+      _id: String
+      id: String
+      slug: String
+      title: String
+      description: String
+      umunsi: String
+      _createdAt: Date 
     }
 
     type MarkdownRemark implements Node {
