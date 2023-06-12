@@ -7,14 +7,12 @@ import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  const posts = data.allAppwritePosts.nodes
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <p>
-          No blog posts found. Add markdown posts to "content/blog".
-        </p>
+        <p>No blog posts found. Add markdown posts to "content/blog".</p>
       </Layout>
     )
   }
@@ -23,10 +21,10 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+          const title = post.title || ''
 
           return (
-            <li key={post.fields.slug}>
+            <li key={post.slug}>
               <article
                 className="post-list-item"
                 itemScope
@@ -34,20 +32,23 @@ const BlogIndex = ({ data, location }) => {
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                    <Link to={post.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small><b className="umunsi">{post.frontmatter.umunsi}</b> ➖ {post.frontmatter.date}</small>
+                  <small>
+                    <b className="umunsi">{post.umunsi}</b> ➖{" "}
+                    {post._created_at}
+                  </small>
                 </header>
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
+                      __html: post.description || post.excerpt,
                     }}
                     itemProp="description"
                   />
-                  <Link to={post.fields.slug} itemProp="url">
+                  <Link to={post.slug} itemProp="url">
                     <button className="soma">Soma</button>
                   </Link>
                 </section>
@@ -72,26 +73,21 @@ export const Head = () => <Seo title="Ibyigisho" />
 
 export const pageQuery = graphql`
   {
+    allAppwritePosts {
+      totalCount
+      nodes {
+        _id
+        slug
+        title
+        description
+        umunsi
+        _createdAt
+      }
+    }
+
     site {
       siteMetadata {
         title
-      }
-    }
-    allMarkdownRemark(
-      filter: {fields: {isPublished: {eq: true}}}
-      sort: { frontmatter: { date: DESC } }
-      ) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-          umunsi
-        }
       }
     }
   }

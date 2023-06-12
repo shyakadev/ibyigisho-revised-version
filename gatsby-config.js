@@ -7,9 +7,10 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+require('dotenv').config()
 module.exports = {
   siteMetadata: {
-    title: `IBYIGISHO BY'ISHURI RYO KU ISABATO`, 
+    title: `IBYIGISHO BY'ISHURI RYO KU ISABATO`,
     author: {
       name: `Shyaka Tresor`,
       summary: `who lives and works in Kigali/Rwanda building useful things.`,
@@ -17,7 +18,7 @@ module.exports = {
     description: `Ibyigisho by'Ishuri Ryo ku Isabato Biyobora Abakuze Kwiga Bibiliya`,
     siteUrl: `https://ibyigisho.xyz/`,
     social: {
-      twitter: `tshyaka`,
+      twitter: `shyakadev`,
     },
   },
   plugins: [
@@ -60,9 +61,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-scheduled-publishing`,
       options: {
-          publishDate: node => node.frontmatter?.date,
+        publishDate: node => node.frontmatter?.date,
       },
-  },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -144,31 +145,31 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-          shortname: `ibyigisho`
-      }
-  },
+        shortname: `ibyigisho`,
+      },
+    },
     {
       resolve: `gatsby-plugin-offline`,
       options: {
         workboxConfig: {
-          globPatterns: ['*.html'] // https://github.com/gatsbyjs/gatsby/issues/30250#issuecomment-805667320
-        }
-      }
+          globPatterns: ["*.html"], // https://github.com/gatsbyjs/gatsby/issues/30250#issuecomment-805667320
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-social9-socialshare`,
       options: {
-        async:  true,
-        defer:  true,
-        content: "b8dd79dce6cd4b2eab5687a5d4a37487",
-      }
+        async: true,
+        defer: true,
+        content: process.env.SOCIAL9_KEY,
+      },
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-TDGV2QEF35", // Google Analytics / GA
+          process.env.GTAG_KEY, // Google Analytics / GA
           //"AW-CONVERSION_ID", // Google Ads / Adwords / AW
           //"DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
@@ -192,6 +193,21 @@ module.exports = {
           // Delays processing pageview events on route update (in milliseconds)
           delayOnRouteUpdate: 0,
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-appwrite`,
+      options: {
+        appwriteEndpoint: process.env.APPWRITE_ENDPOINT,
+        appwriteProject: process.env.APPWRITE_PROJECT_KEY,
+        appwriteApiKey:process.env.APPWRITE_API_KEY,
+        types: [
+          {
+            type: "Posts",
+            query: databases =>
+              databases.listDocuments("64734849574afcf3906e", "647712fce18612ca1fc6"),
+          },
+        ],
       },
     },
   ],

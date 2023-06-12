@@ -259,5 +259,4 @@ verses.forEach(async verse => {
     await umurongo({targetValue, icyigisho, umwaka, igihembwe, title}).catch(() => `Please check your internet connection`);
 })
 
-// https://bibiliya.com/biblia/kubara-2-3
 
